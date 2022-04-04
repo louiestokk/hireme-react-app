@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background: #f1f5f9;
+  align-items: center;
+  justify-content: center;
+}
+.banner section {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+.banner .category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  font-weight: bold;
+  color: #4338ca;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+.banner .banner-icon {
+  font-size: 1.4rem;
+  color: #0f172a;
+}
+.banner-card {
+  background: white;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 10px;
+}
+.banner-card .banner-card-p {
+  color: #0f172a;
+  font-size: 0.8rem;
+}
+.banner .article {
+  display: flex;
+  align-items: center;
+}
