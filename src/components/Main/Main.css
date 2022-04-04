@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main .main-info {
+  max-width: 500px;
+}
+.main .main-info h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.main .main-info p {
+  max-width: 400px;
+}
+
+.main .main-info .main-register {
+  background: #4338ca;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem;
+  margin-right: 1rem;
+  font-weight: bold;
+  margin-top: 1.2rem;
+}
+@media screen and (max-width: 900px) {
+  .main .main-lottie {
+    display: none;
+  }
+}

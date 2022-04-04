@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
 import { navlinks } from "../../utils/navlinks";
 import { FaHireAHelper } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 const Nav = () => {
+  const [showNav, setShowNav] = useState(false);
   return (
     <div className="nav">
       <div className="nav-logo">
@@ -19,15 +21,18 @@ const Nav = () => {
         <button className="login">Logga in</button>
         <button className="register">Registrera dig</button>
       </div>
-      <div className="nav-menu">
+      <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
         {navlinks.map((link) => (
           <div key={link.id}>
             <Link to={`/${link.label}`}>{link.label}</Link>
           </div>
         ))}
-        <button>Logga in</button>
-        <button>Registrera dig</button>
+        <button className="login">Logga in</button>
+        <button className="register">Registrera dig</button>
       </div>
+      <button className="nav-btn" onClick={() => setShowNav(!showNav)}>
+        <FaBars />
+      </button>
     </div>
   );
 };
