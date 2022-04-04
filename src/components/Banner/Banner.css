@@ -6,10 +6,21 @@
   align-items: center;
   justify-content: center;
 }
+.banner h1 {
+  font-size: 1.8rem;
+}
 .banner section {
   display: flex;
   width: 100%;
   overflow-x: scroll;
+}
+.banner section::-webkit-scrollbar {
+  display: none;
+}
+
+.banner section {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .banner .category {
   display: flex;
@@ -22,9 +33,11 @@
   margin-top: 0.5rem;
   font-size: 1.1rem;
 }
+
 .banner .banner-icon {
   font-size: 1.4rem;
   color: #0f172a;
+  margin-left: 0.5rem;
 }
 .banner-card {
   background: white;
@@ -40,4 +53,7 @@
 .banner .article {
   display: flex;
   align-items: center;
+  margin: 0.5rem 0;
+}
+@media screen and (max-width: 900px) {
 }
