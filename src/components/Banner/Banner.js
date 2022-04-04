@@ -1,9 +1,5 @@
 import React from "react";
 import "./Banner.css";
-import { FaRegHospital } from "react-icons/fa";
-import { FaTruck } from "react-icons/fa";
-import { MdOutlineLocalHospital } from "react-icons/md";
-import { FaTruckLoading } from "react-icons/fa";
 import { VardLottie } from "../../lottie/VardLottie";
 import care from "../../utils/animation/care.json";
 import delivery from "../../utils/animation/delivery.json";
