@@ -30,6 +30,7 @@
 }
 .nav .nav-links {
   text-transform: capitalize;
+  letter-spacing: 1px;
 }
 .nav .nav-links a {
   color: #0f172a;
@@ -44,6 +45,7 @@
   font-size: 0.9rem;
   text-transform: capitalize;
   margin-bottom: 1rem;
+  letter-spacing: 1px;
 }
 .nav .nav-menu div {
   margin-top: 1rem;
@@ -51,6 +53,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  letter-spacing: 1px;
 }
 .nav .nav-links .login {
   background: transparent;
@@ -58,6 +61,7 @@
   font-weight: bold;
   font-size: 0.9rem;
   margin-right: 1rem;
+  letter-spacing: 1px;
 }
 .nav .nav-menu .login {
   background: transparent;
@@ -66,6 +70,7 @@
   font-size: 0.9rem;
   margin-right: 1rem;
   margin-top: 1rem;
+  letter-spacing: 1px;
 }
 .nav .nav-links .register {
   background: #4338ca;
@@ -75,6 +80,7 @@
   padding: 0.6rem;
   margin-right: 1rem;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 .nav .nav-menu .register {
   background: #4338ca;
@@ -85,6 +91,7 @@
   margin-right: 1rem;
   font-weight: bold;
   margin-top: 1rem;
+  letter-spacing: 1px;
 }
 .nav .nav-logo {
   display: flex;
