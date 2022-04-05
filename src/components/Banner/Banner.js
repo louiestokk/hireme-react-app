@@ -33,10 +33,11 @@ const Banner = () => {
             ))}
           </div>
         </div>
+
         <div className="category">
           <article className="article">
             <div>
-              <VardLottie lotti={care} heigth={200} width={200} />
+              <TransportLottie lotti={delivery} heigth={200} width={200} />
             </div>
           </article>
           <div className="banner-card">
@@ -54,7 +55,7 @@ const Banner = () => {
         <div className="category">
           <article className="article">
             <div>
-              <TransportLottie lotti={delivery} heigth={200} width={200} />
+              <VardLottie lotti={care} heigth={200} width={200} />
             </div>
           </article>
           <div className="banner-card">
