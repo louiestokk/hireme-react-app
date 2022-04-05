@@ -10,10 +10,9 @@ const Main = () => {
         <p>
           Trött på att ge dig in i långa processer utan att veta vad
           arbetsgivare erbjuder? På HireMe anger du vad du vill jobba med, dina
-          krav på arbetsgivaren och önskad lön. Sen låter du hundratals vård
-          eller åkeri/transport bolag ta kontakt – och ser direkt vilka som kan
-          möta dina förväntningar. Inget CV krävs och det är självklart
-          kostnadsfritt.
+          krav på arbetsgivaren och önskad lön. Sen låter du hundratals vård,
+          transport och tech bolag ta kontakt med dig. Många söker efter just
+          dina kunskaper. Kom igång snabbt med jobb på Hireme.
         </p>
         <button className="main-register">Registrera dig</button>
       </section>
