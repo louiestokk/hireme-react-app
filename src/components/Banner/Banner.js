@@ -40,7 +40,15 @@ const Banner = () => {
             </div>
           </article>
           <div className="banner-card">
-            <p className="banner-card-p">Lista annonser här</p>
+            {jobs?.map((job, ind) => (
+              <div key={ind} className="item">
+                <h4>Company: {job.company_name}</h4>
+                <h5>{job.job_title}</h5>
+                <p>{job.date}</p>
+                <p>{job.location}</p>
+                <button>read more</button>
+              </div>
+            ))}
           </div>
         </div>
         <div className="category">
@@ -50,7 +58,15 @@ const Banner = () => {
             </div>
           </article>
           <div className="banner-card">
-            <p className="banner-card-p">Lista annonser här</p>
+            {jobs?.map((job, ind) => (
+              <div key={ind} className="item">
+                <h4>Company: {job.company_name}</h4>
+                <h5>{job.job_title}</h5>
+                <p>{job.date}</p>
+                <p>{job.location}</p>
+                <button>read more</button>
+              </div>
+            ))}
           </div>
         </div>
       </section>
