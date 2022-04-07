@@ -48,6 +48,10 @@ const Services = () => {
               </p>
               <p>
                 {<AiFillCheckCircle />}
+                <span>Obegränsat med kontakter"</span>
+              </p>
+              <p>
+                {<AiFillCheckCircle />}
                 <span>Betala 2999kr/mån "inga bindningstider"</span>
               </p>
             </div>
