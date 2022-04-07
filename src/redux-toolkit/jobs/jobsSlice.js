@@ -2,6 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   jobs: [],
+  employees: "10",
+  loaction: "Stockholm",
+  employment: "Fast",
+  remote: true,
 };
 
 const jobsSlice = createSlice({
@@ -16,4 +20,5 @@ const jobsSlice = createSlice({
 
 export const { addJobs } = jobsSlice.actions;
 export const getJobs = (state) => state.jobs.jobs;
+export const businessdata = (state) => state.jobs;
 export default jobsSlice.reducer;

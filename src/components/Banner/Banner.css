@@ -46,7 +46,7 @@
 .banner-card {
   background: white;
   width: 100%;
-  height: 200px;
+  height: 250px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   border-radius: 10px;
   overflow-y: scroll;
@@ -75,7 +75,8 @@
   color: #0f172a;
   font-size: 0.7rem;
 }
-.banner .banner-card button {
+.banner .banner-card button,
+a {
   background: transparent;
   border: none;
   border-radius: 5px;
@@ -84,6 +85,16 @@
 }
 .banner .banner-card .item {
   margin-top: 1rem;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner .banner-card .item h4,
+h5,
+p {
+  display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 900px) {
   .banner section {

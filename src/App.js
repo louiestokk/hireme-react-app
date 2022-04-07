@@ -7,6 +7,7 @@ import Arbetstagare from "./pages/Arbetstagare/Arbetstagare";
 import Arbetsgivare from "./pages/Arbetsgivare/Arbetsgivare";
 import { addJobs } from "./redux-toolkit/jobs/jobsSlice";
 import { useDispatch } from "react-redux";
+import JobDetails from "./components/JobDetails/JobDetails";
 import axios from "axios";
 function App() {
   const dispatch = useDispatch();
@@ -41,6 +42,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/arbetsgivare" element={<Arbetsgivare />} />
         <Route path="/arbetstagare" element={<Arbetstagare />} />
+        <Route path="/activejobs/:name" element={<JobDetails />} />
       </Routes>
     </Router>
   );

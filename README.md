@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# HireMe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+web app to help healthcare, transport and tech companies find employees.
 
 ## Available Scripts
 
