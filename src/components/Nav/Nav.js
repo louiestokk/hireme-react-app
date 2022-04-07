@@ -23,7 +23,7 @@ const Nav = () => {
       </div>
       <div className={showNav ? "nav-menu show-nav" : "nav-menu"}>
         {navlinks.map((link) => (
-          <div key={link.id}>
+          <div key={link.id} onClick={() => setShowNav(!showNav)}>
             <Link to={`/${link.label}`}>{link.label}</Link>
           </div>
         ))}
