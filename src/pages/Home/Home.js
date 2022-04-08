@@ -3,6 +3,7 @@ import "./Home.css";
 import Main from "../../components/Main/Main";
 import Banner from "../../components/Banner/Banner";
 import Ratings from "../../components/Ratings/Ratings";
+import Usage from "../../components/Usage/Usage";
 const Home = () => {
   return (
     <div className="home">
@@ -14,6 +15,7 @@ const Home = () => {
         btn={"Registrera dig"}
       />
       <Banner />
+      <Usage />
       <Ratings />
     </div>
   );
